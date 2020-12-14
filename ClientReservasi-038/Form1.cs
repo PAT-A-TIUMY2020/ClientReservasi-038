@@ -126,5 +126,12 @@ namespace ClientReservasi_038
             btSimpan.Enabled = false;
             textBoxID.Enabled = false;
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Register R = new Register();
+            this.Hide();
+            R.ShowDialog();
+        }
     }
 }
